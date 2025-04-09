@@ -24,9 +24,11 @@ const Products = ({prductPromise}) => {
         
     }
     
-    const handlerRemoveBookmark = (id)=>{
+    const handlerRemoveBookmark = (id,price)=>{
        const items = bookItem.filter(product => product.id !== id);
        setBookItem(items);
+       const total = totalBid - price;
+        setTotalBid(total);
        itemRemoveToFavoriteList()
     }
 
@@ -114,7 +116,7 @@ const Products = ({prductPromise}) => {
                                         <p className='inline mr-3'>${product.currentBidPrice}</p> <p className='inline'>Bids: {product.bidsCount}</p>
                                     </div>
                                     <div 
-                                    onClick={()=> handlerRemoveBookmark(product.id)}
+                                    onClick={()=> handlerRemoveBookmark(product.id,product.currentBidPrice)}
                                     className='text-2xl cursor-pointer hover:text-red-700'><IoCloseSharp /></div>
                                 </div>)
                             }

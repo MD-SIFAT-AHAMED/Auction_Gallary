@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "title": "Vintage Leica M3 Camera",
+      "description": "Classic Leica M3 rangefinder camera known for its precision and craftsmanship. A collector's favorite.",
+      "currentBidPrice": 1200.00,
+      "timeLeft": "2d 10h",
+      "bidsCount": 25,
+      "image": "https://i.ibb.co.com/k2tKrp2c/Bid1-min.png"
+    },
+    {
+      "id": 2,
+      "title": "1965 Gibson SG Standard Electric Guitar",
+      "description": "Legendary 1965 Gibson SG guitar with original pickups and finish. A must-have for vintage guitar lovers.",
+      "currentBidPrice": 3400.00,
+      "timeLeft": "1d 5h",
+      "bidsCount": 41,
+      "image": "https://i.ibb.co.com/DPhCR892/Bid2-min.png"
+    },
+    {
+      "id": 3,
+      "title": "Original Apple Macintosh 128K (1984)",
+      "description": "The very first Macintosh computer by Apple, launched in 1984. Fully functional and iconic.",
+      "currentBidPrice": 2800.00,
+      "timeLeft": "3d 2h",
+      "bidsCount": 33,
+      "image": "https://i.ibb.co.com/5h4zPDs4/Bid3-min.png"
+    },
+    {
+      "id": 4,
+      "title": "Rolex Submariner 16610",
+      "description": "Timeless luxury with the Rolex Submariner 16610 – stainless steel, automatic movement, and classic design.",
+      "currentBidPrice": 9500.00,
+      "timeLeft": "8h 45m",
+      "bidsCount": 58,
+      "image": "https://i.ibb.co.com/zT3V3Qw3/Bid4-min.png"
+    },
+    {
+      "id": 5,
+      "title": "First Edition 'The Great Gatsby' by F. Scott Fitzgerald",
+      "description": "Rare first edition of F. Scott Fitzgerald's masterpiece. A true gem for literary collectors.",
+      "currentBidPrice": 6500.00,
+      "timeLeft": "4d 12h",
+      "bidsCount": 17,
+      "image": "https://i.ibb.co.com/8gH1K2VW/Bid6-min.png"
+    },
+    {
+      "id": 6,
+      "title": "Mid-Century Modern Eames Lounge Chair",
+      "description": "Authentic Eames Lounge Chair with ottoman. Iconic mid-century design and luxurious comfort.",
+      "currentBidPrice": 1900.00,
+      "timeLeft": "1d 8h",
+      "bidsCount": 22,
+      "image": "https://i.ibb.co.com/2YZNZXwN/Bid5-min.png"
+    },
+    {
+      "id": 7,
+      "title": "Banksy Original Screen Print",
+      "description": "Certified original Banksy screen print – a bold statement from the world-famous street artist.",
+      "currentBidPrice": 12000.00,
+      "timeLeft": "2d 6h",
+      "bidsCount": 39,
+      "image": "https://i.ibb.co.com/sdxTYnBY/Bid7-min.png"
+    }
+  ]
+  

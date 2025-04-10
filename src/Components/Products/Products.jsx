@@ -10,7 +10,7 @@ const Products = ({prductPromise}) => {
     const [bookItem,setBookItem] = useState([]);
     const [totalBid,setTotalBid] = useState((0));
     const [bookmarkColor,setBookmarkColor] = useState([]);
-
+    console.log(bookmarkColor)
     const handlerBookmark =(product)=>{
 
         if(bookmarkColor.includes(product.id)) return;
@@ -29,7 +29,9 @@ const Products = ({prductPromise}) => {
        setBookItem(items);
        const total = totalBid - price;
         setTotalBid(total);
-       itemRemoveToFavoriteList()
+       itemRemoveToFavoriteList();
+       const bookmarkItem = bookmarkColor.filter( item => item !== id);
+       setBookmarkColor(bookmarkItem);
     }
 
     const itemAddedToFavoriteList = () => {
